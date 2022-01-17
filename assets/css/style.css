@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --backgroundColor1: #fff;
+    --backgroundColor2: #000;   
+    --backgroundColor3: rgb(245, 245, 245);   
+    --elementColor1: #000;
+    --elementColor2: #fff;
+}
+
+
+
+/* common */
+.content-setting {
+    background-color: var(--backgroundColor1);
+    display: inline-block;
+}
+.container {
+    position: absolute;
+    top: 63px;
+    left: 252px;
+    padding: 32px 24px 128px;
+}
+
+.content-heading {
+    padding: 12px 0px 2px;
+}
+/* Nav */
+.nav {
+    position: fixed;
+    top: 63px;
+    bottom: 0;
+    width: 252px;
+    background-color: var(--backgroundColor2);
+}
+
+.nav-icon {
+    color: #fff;
+    list-style: none;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.nav > a {
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+}
+
+.nav > h2 {
+    padding-bottom: 8px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.nav-content {
+    display: block;
+    padding: 0 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--elementColor2);
+}
+
+.s-nav {
+    position: fixed;
+    z-index: 1;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    background-color: var(--backgroundColor1);
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.s-nav h3 {
+    font-size: 32px;
+}
+
+.s-nav-menu {
+    font-size: 36px;
+    position: absolute;
+    left: 20px;
+    display: none;
+
+}
+
+p, li {
+    padding: 4px 0;
+    text-align: justify;
+}
+
+.content-visual {
+    float: right;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 12px;
+    margin-top: 8px;
+    width: 240px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    background-color: var(--backgroundColor3);
+}
+
+.content-visual > img {
+    width: 100%;
+    box-shadow: 0 0 2px rgb(0 0 0 / 80%);
+}
+
+
+/* about */
+
+#about h1{
+    text-align: center;
+}
+
+#about h2 {
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.about-name{
+    padding-bottom: 32px;
+}
+
+.about-img-face {
+    float: left;
+    padding: 0 16px 0 0;
+    height: 248px;
+}
+
+
+/* Honor */
+.honor {
+
+}
+
+
+
+.list-content {
+    padding-left: 24px;
+}

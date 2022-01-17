@@ -1,0 +1,41 @@
+
+/* moblie */
+@media (max-width: 850px) {
+    .nav {
+        display: none;
+        z-index: 1;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+
+    .nav > a {
+        font-size: 20px;
+        padding: 12px;
+    }
+    .s-nav-menu {
+        display: unset;
+    }
+
+    .container {
+        top: 56px;
+        left: unset;
+    }
+
+    .about-img-face {
+        padding: 12px 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-name {
+        padding-bottom: 16px;
+    }
+
+    .content-visual {
+        margin-bottom: 12px;
+        margin-top: 12px;
+        margin-left: unset;
+        width: 100%;
+    }
+    
+}
